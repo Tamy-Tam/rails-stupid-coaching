@@ -10,25 +10,38 @@ body {
 
 h1 {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: lighter bold;
  }
 
 p {
   font-size: 16px;
 }
 
-.person {
+.question {
+  background-color: #f4f9f9;
+  box-shadow: -10px 0px 0px darkgray;
+  padding: 5px 18px;
+  margin: 25px;
+}
+
+ .answer{
+  background-color: #fffde1;
+  box-shadow: -10px 0px 0px darkgray;
+  padding: 5px 18px;
+  margin: 25px;
+ }
+
+ .person {
   font-size: 20px;
-  font-weight: italic;
+  font-style: italic;
  }
 
 #your_message {
-  color: darkgray;
   font-size: 20px;
 }
 
 #coach_answer {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   color: #28537a;
  }
